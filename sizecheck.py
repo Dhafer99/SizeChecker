@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import filedialog, ttk,messagebox
 from threading import Thread
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+import shutil
 def get_folder_size(path):
     total_size = 0
     def handle_error(error):
