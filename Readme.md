@@ -8,3 +8,5 @@ Make sure you have Python installed on your system. You can check if Python is i
 
 ```bash
 python --version
+
+python sizecheck.py
